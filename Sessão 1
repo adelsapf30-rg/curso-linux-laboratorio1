@@ -1,0 +1,3 @@
+ Número de portas abertas identificadas- Foram identificadas  5 portas Foram identificadas 5 portas abertas (serviços rodando) no alvo. (Nota: O Nmap também mostrou 2 portas "filtered", que estão protegidas por firewall, mas não estão abertas para conexões diretas).
+ Serviços em execução em cada porta :1-Porta 22/TCP: SSH. 2Porta 53/TCP: Domain (DNS).3Porta 139/TCP: NetBIOS-SSN.4 Porta 445/TCP: NetBIOS-SSN (SMB).5-Porta 8443/TCP: HTTPS-ALT (Amazon DCV).
+Versões exatas detetadas pelo Nmap 1 SSH: OpenSSH 9.6p1 Ubuntu 3ubuntu13.18. 2.DNS (Domain): dnsmasq 2.90. 3.NetBIOS/SMB: Samba smbd 4.6.2. 4.Amazon DCV: dcv.
