@@ -1,0 +1,16 @@
+1. Número de portas abertas identificadas
+Foram identificadas 5 portas abertas.
+
+ 2. Serviços em execução em cada porta
+* Porta 22/TCP: SSH
+* Porta 53/TCP: Domínio (DNS)
+* Porta 139/TCP: NetBIOS-SSN
+* Porta 445/TCP: NetBIOS-SSN (SMB)
+* Porta 8443/TCP: HTTPS-ALT (Amazon DCV)
+
+3. Versões exatas detetadas pelo Nmap
+SSH: OpenSSH 9.6p1 Ubuntu 3ubuntu13.18
+DNS (Domínio): dnsmasq 2.90
+NetBIOS/SMB: Samba smbd 4.6.2
+ Amazon DCV: dcv
+
