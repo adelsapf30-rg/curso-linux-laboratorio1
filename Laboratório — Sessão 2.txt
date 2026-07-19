@@ -1,0 +1,13 @@
+Laboratório — Sessão 2
+Auditoria de Sistemas Linux e Análise Avançada de Log
+Relatório de Análise de Log de Autenticação
+Nome Adelsa Pires Fernandes 
+1. O IP do atacante identificado:
+Nenhum IP malicioso foi identificado, pois a busca por "Failed password" nos arquivos de log não retornou registros de tentativas de acesso não autorizadas.
+2. A hora exata do comprometimento (timestamp):
+Não há timestamp de comprometimento, uma vez que a análise dos logs não detectou acessos bem-sucedidos ("Accepted") por agentes externos.
+3. O utilizador afetado:
+Nenhum utilizador foi afetado, dado que não foi registrado sucesso em tentativas de login suspeitas ou ataques de força bruta.
+4. Breve linha temporal do ataque (tentativas falhadas → sucesso):
+Foi realizada a varredura completa em todos os arquivos de log de autenticação 
+Não foi possível estabelecer uma linha temporal de ataque, pois os registros indicam um estado de integridade sem incidentes de intrusão registrados nos logs analisados.
